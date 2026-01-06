@@ -1,11 +1,7 @@
-## FCDownloader
-Ahh yes, FCDownloader.
+## TFGrubDownloader
 
-***WARNING! THIS REPOSITORY HAVE THE CONTENTS OF TF2CDOWNLOADER BETA CODE AND THIS UTILITY'S BETA BUILD IS STORED IN HERE.*** 
-
-----
-
-FCDownloader is a installer utility for Lambdagon's Fortress Connected, this utility is based on a beta version of TF2CDownloader.
+TFGrubDownloader is a installer utility for Grub fortress, this utility is based on the [FCDownloader](https://github.com/Lambdagon/FCDownloader), which was based on a beta version of TF2CDownloader.
 
 ## Links
-[FCDownloader Releases](https://github.com/Lambdagon/tf_coop_lambda/releases/)
+[TF:Grub Releases](https://github.com/Grub-Fortress/grub_fortress/releases/)
+[TF:Grub Downloader Releases](https://github.com/Grub-Fortress/TFGrubDownloader/releases/)

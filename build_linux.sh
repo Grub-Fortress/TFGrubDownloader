@@ -1,2 +1,2 @@
 #!/bin/sh
-PyInstaller tf2c_beta.spec
+PyInstaller tfgrub_installer.spec

@@ -1,1 +1,1 @@
-pyinstaller lfcedownloader.spec
+pyinstaller tfgrub_downloader.spec

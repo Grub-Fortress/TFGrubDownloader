@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['lfcedownloader.py'],
+    ['tfgrub_downloader.py'],
     pathex=[],
     binaries=[],
     datas=[('Binaries/', '.')],
@@ -28,7 +28,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='lfce_downloader',
+    name='tfgrub_downloader',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -41,5 +41,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='lfce.ico',
+    icon='tfgrub.ico',
 )

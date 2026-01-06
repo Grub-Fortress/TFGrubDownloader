@@ -39,9 +39,9 @@ def message_yes_no(msg, default = None):
 
     prompt = _(" {y/n}")
     if default == "y":
-        prompt = _(" {Y/n}")
+        prompt = _(" {Y/n} (Default: Yes)")
     elif default == "n":
-        prompt = _(" {y/N}")
+        prompt = _(" {y/N} (Default: No)")
     msg += prompt
 
     while True:
