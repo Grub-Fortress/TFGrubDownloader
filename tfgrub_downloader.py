@@ -48,7 +48,7 @@ try:
     sanity_check()
     setup.setup_binaries()
     setup.setup_path(False)
-    endpath = vars.INSTALL_PATH + '/grub_fortress'
+    endpath = vars.INSTALL_PATH + '/tfgrub'
     # After this line, we have three possible paths: installing, updating/repairing , a full new install
     if os.path.exists(endpath) and not gitrepo_check(endpath):
         if gui.message_yes_no(("Looks like you're missing the .git folder, would you like to remove your current TF:Grub install and install a new one using the downloader\n(WARNING: Any achievement progress, settings or any files you placed in there will be removed)")):
@@ -56,7 +56,7 @@ try:
             downloads.clone(endpath)
             gui.message_end(_("All done!"), 0)
     
-    elif os.path.exists(vars.INSTALL_PATH + '/grub_fortress/gameinfo.txt'):
+    elif os.path.exists(vars.INSTALL_PATH + '/tfgrub/gameinfo.txt'):
         if gui.message_yes_no(("It looks like the mod's already installed. Do you want to update it?")):
             downloads.pull(endpath)
             gui.message_end(_("All done!"), 0)
